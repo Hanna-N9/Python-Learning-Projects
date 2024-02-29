@@ -7,7 +7,7 @@ This repository contains my solutions and projects completed during the "Learn P
 The repository is organized into two main folders:
 
 - `lessons`: Contains solutions and exercises from the individual lessons of the course.
-- `projects`: Contains projects that I've built as part of the course, demonstrating the practical application of Python concepts.
+- `projects`: Includes projects I've built as part of the course, demonstrating the practical application of Python concepts.
 
 ## Getting Started
 
@@ -35,7 +35,4 @@ To get a local copy up and running, follow these simple steps:
 
 ## Contributing
 
-Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion to improve this, please fork the repo and create a pull request. 
-
-
-
+Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion to improve this, please fork the repo and create a pull request.
