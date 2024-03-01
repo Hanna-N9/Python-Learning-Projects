@@ -10,8 +10,8 @@ I've also written a blog post titled ["Similarities and Differences between Pyth
 
 The repository is organized into two main folders:
 
-- `lessons`: Contains solutions and exercises from the individual lessons of the course.
-- `projects`: Includes projects I've built as part of the course, demonstrating the practical application of Python concepts.
+- `lessons`: This folder contains my solutions to the individual lessons of the course. Each lesson's folder includes my Python scripts, which might be phrased differently from the lesson's original solution but aim to demonstrate the same concepts.
+- `projects`: This folder contains my projects completed as part of the course.
 
 ## Getting Started
 
