@@ -1,6 +1,10 @@
 # Python Learning Journey
 
-This repository contains my solutions and projects completed during the "Learn Python 3" course on [Codecademy](https://www.codecademy.com/learn/learn-python-3). The course has been instrumental in my journey to mastering Python, and I'm sharing these solutions and projects to document my progress and to potentially help others who might be learning Python as well.
+This repository contains my solutions and projects completed during the "Learn Python 3" course on [Codecademy](https://www.codecademy.com/learn/learn-python-3). The course has been instrumental in my journey to maunderstandingstering Python, and I'm sharing these solutions and projects to document my progress.
+
+## Blog Post
+
+I've also written a blog post titled ["Similarities and Differences between Python and JavaScript"](https://medium.com/@hnegash.n/similarities-and-differences-between-python-and-javascript-4051bd991991) on Medium. This post delves into the syntax of both languages, showcasing my understanding of Python and JavaScript, especially in terms of syntax differences. This post serves as a supplementary resource, showcasing my understanding of Python and JavaScript, especially in terms of syntax differences.
 
 ## Repository Structure
 
@@ -21,7 +25,7 @@ To get a local copy up and running, follow these simple steps:
 
 ### Lessons
 
-- **Lesson 1**: Introduction to Python
+- **Lesson 1**: ...
 - **Lesson 2**: ...
 - **Lesson 3**: ...
 - ...
@@ -35,4 +39,4 @@ To get a local copy up and running, follow these simple steps:
 
 ## Contributing
 
-Contributions make the open-source community a fantastic place to learn, inspire, and create. Any contributions you make are greatly appreciated. If you have a suggestion to improve this, please fork the repo and create a pull request.
+Contributions are welcome. If you have a suggestion that would make this better, please fork the repo and create a pull request.
