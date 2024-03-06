@@ -1,4 +1,4 @@
-#Display the initials of my name in block letters into ASCII art
+# Displays the initials of my name in block letters into ASCII art
 
 print("H   H   N   N")    
 print("H   H   NN  N")
