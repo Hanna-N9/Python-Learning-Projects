@@ -39,6 +39,38 @@ print(type(my_baby_bool_two)) # <class 'bool'>
 
                                 #_______________________________________________________________
 
+# If statement
+
+# form of a conditional statement --- If [it is raining], then [bring an umbrella] 
+
+# In Python form, instead of “then” we have a colon, :
+
+is_raining = "It is raining" 
+if is_raining:  
+  print("bring an umbrella")
+ 
+user_name = "John" 
+if user_name == "John":
+    print(f"The user name, {user_name}, is correct.")
+    
+    
+                                #_______________________________________________________________
+                                
+# Relational Operators II 
+ # two relational operators (==, !=) and four more -- >, >=, <, <=
+ 
+ # A college requires students to earn 120 credits to graduate. Check if the student has enough credits to graduate
+ 
+ credits = 120
+ if credits >= 120:
+     print("You have enough credits to graduate!")
+     
+                                #_______________________________________________________________
+
+# Boolean Operators: and
+
+
+  
 
 
 
