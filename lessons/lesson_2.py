@@ -61,18 +61,72 @@ if user_name == "John":
  
  # A college requires students to earn 120 credits to graduate. Check if the student has enough credits to graduate
  
- credits = 120
- if credits >= 120:
-     print("You have enough credits to graduate!")
+credits = 120
+if credits >= 120:
+    print("You have enough credits to graduate!")
      
                                 #_______________________________________________________________
 
 # Boolean Operators: and
 
+# and combines two boolean expressions and evaluates as True if both its components are True, but False otherwise.
 
+statement_one = "Oranges are a fruit and carrots are a vegetable." # both of which are True and connected by the boolean operator and
+
+# 120 credits aren’t the only graduation requirement, you also need to have a GPA of 2.0 or higher
+credits = 120
+gpa = 3.4
+
+if gpa >= 2.0 and credits >= 120:
+  print("You meet the requirements to graduate!")
+
+
+                                #_______________________________________________________________
+                                
+# Boolean Operators: or
+# or combines two expressions into a larger expression that is True if either component is True
+
+statement_two = "Oranges are a fruit or apples are a vegetable." # First one is true while second one is false. Because the two expressions are connected by the or operator, the entire statement is True. Only one component needs to be True for an or statement to be True.
+
+print(bool(statement_two)) # True
+
+# Write an if statement that checks if a student either has 120 or more credits or a GPA 2.0 or higher, and if so prints:
+
+credits = 118
+gpa = 2.0
+
+if credits >= 120 or gpa >= 2.0:
+  print("You have met at least one of the requirements.")
   
+  
+                                #_______________________________________________________________
+
+# Boolean Operators: not
+# when applied to any boolean expression it reverses the boolean value. In English is slightly different from the way it would appear in Python because in Python we add the not operator to the very beginning of the statement.
+
+not True == False
+not False == True
+
+# college credits and gpa 
+
+credits = 120
+gpa = 1.8
+
+# If a student’s credits is not greater or equal to 120
+if not credits >= 120:
+  print('You do not have enough credits to graduate.')
+
+# If their gpa is not greater or equal to 2.0
+if not gpa >= 2.0:
+  print('Your GPA is not high enough to graduate.')
+
+# If their credits is not greater than or equal to 120 and their gpa is not greater than or equal to 2.0
+if not (credits >= 120) and not (gpa >= 2.0):
+  print('You do not meet either requirement to graduate!')
+  
+  
+                                  #_______________________________________________________________
+
+# Else Statements
 
 
-
-
- 
