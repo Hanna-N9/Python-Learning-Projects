@@ -35,7 +35,9 @@ To get a local copy up and running, follow these simple steps:
 - **Project 1**:
   - Block Letters
   - Receipts for Lovely Loveseats
-- **Project 2**: ...
+- **Project 2**:
+  - Magic 8-Ball
+  - Sal's Shipping
 - **Project 3**: ...
 - ...
 
