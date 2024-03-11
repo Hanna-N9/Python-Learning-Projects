@@ -28,6 +28,7 @@ To get a local copy up and running, follow these simple steps:
 - **Lesson 1**: Introduction to Python
 - **Lesson 2**: Control Flow
 - **Lesson 3**: Errors in Python
+- **Lesson 4**: User Input
 - ...
 
 ### Projects
