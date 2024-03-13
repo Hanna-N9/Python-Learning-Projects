@@ -59,6 +59,8 @@ print(orders_combined) # ['daisy', 'buttercup', 'snapdragon', 'gardenia', 'lily'
  broken_prices = [5, 3, 4, 5, 4] + [4]
  
 
+                                    #_______________________________________________________________
 
+# Accessing List Elements
 
 
