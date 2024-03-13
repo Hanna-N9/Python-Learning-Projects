@@ -62,5 +62,28 @@ print(orders_combined) # ['daisy', 'buttercup', 'snapdragon', 'gardenia', 'lily'
                                     #_______________________________________________________________
 
 # Accessing List Elements
+  # We call the location of an element in a list its index. Lists are zero-indexed
+  # Select a single element from a list by using square brackets and the index of the list item (int). Example, orders[2] outputs snapdragon
+
+employees = ["Michael", "Dwight", "Jim", "Pam", "Ryan", "Andy", "Robert"]
+
+employee_four = employees[3]
+
+print(employees[5]) # Andy
 
 
+                                    #_______________________________________________________________
+
+# Accessing List Elements: Negative Index
+  # Select the last element of a list by index -1
+  
+shopping_list = ["eggs", "butter", "milk", "cucumbers", "juice", "cereal"]
+
+last_element = shopping_list[-1]
+print(last_element) # cereal
+index5_element = shopping_list[5]
+print(index5_element) # cereal
+
+                                    #_______________________________________________________________
+
+# Modifying List Elements
