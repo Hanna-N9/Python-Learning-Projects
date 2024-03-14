@@ -18,7 +18,7 @@ my_empty_list = []
   # Built-in functionality to create, manipulate, and delete data
     # Methods will follow the form of list_name.method()
     
-            #_________________________
+                                    #_______________________________________________________________
 
 # Append => Add an element to the end of a list
 orders = ["daisies", "periwinkle"]
@@ -28,12 +28,6 @@ orders.append("tulips")
 orders.append("roses")
 
 print(orders) # ['daisies', 'periwinkle', 'tulips', 'roses']
-
-            #_________________________
-
-# Remove => Remove an element from the list
-orders.remove("tulips")
-print(orders) # ['daisies', 'periwinkle', 'roses']
 
                                     #_______________________________________________________________
 
