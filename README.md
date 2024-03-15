@@ -40,7 +40,8 @@ To get a local copy up and running, follow these simple steps:
 - **Project 2**:
   - Magic 8-Ball
   - Sal's Shipping
-- **Project 3**: ...
+- **Project 3**:
+  - Gradebook
 - ...
 
 ## Contributing
