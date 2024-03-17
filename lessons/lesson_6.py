@@ -1,9 +1,3 @@
-# Adding by Index: Insert
-  # The Python list method .insert() allows us to add an element to a specific index in a list. When we insert an element into a list, all elements from the specified index and up to the last index are shifted one index to the right.
-  # The .insert() method takes in two inputs:
-    # The index you want to insert into. Numerical index
-    # The element you want to insert at the specified index.
-
 # Initial data
 front_display_list = ["Mango", "Filet Mignon", "Chocolate Milk"]
 print(front_display_list) # ['Mango', 'Filet Mignon', 'Chocolate Milk']
