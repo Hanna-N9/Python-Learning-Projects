@@ -43,6 +43,7 @@ To get a local copy up and running, follow these simple steps:
   - Sal's Shipping
 - **Project 3**:
   - Gradebook
+  - Len's Slice
 - ...
 
 ## Contributing
