@@ -31,6 +31,7 @@ To get a local copy up and running, follow these simple steps:
 - **Lesson 4**: User Input
 - **Lesson 5**: Introduction to Lists
 - **Lesson 6**: Working with Lists
+- **Lesson 7**: Learn Python: Tuples
 - ...
 
 ### Projects
