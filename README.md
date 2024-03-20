@@ -29,7 +29,7 @@ To get a local copy up and running, follow these simple steps:
 - **Lesson 2**: Control Flow
 - **Lesson 3**: Errors in Python
 - **Lesson 4**: User Input
-- **Lesson 5**: Lists
+- **Lesson 5**
   - **Sub-Lesson 5-1**: Introduction to Lists
   - **Sub-Lesson 5-2**: Working with Lists
   - **Sub-Lesson 5-3**: Learn Python: Tuples
