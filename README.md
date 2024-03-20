@@ -29,9 +29,11 @@ To get a local copy up and running, follow these simple steps:
 - **Lesson 2**: Control Flow
 - **Lesson 3**: Errors in Python
 - **Lesson 4**: User Input
-- **Lesson 5**: Introduction to Lists
-- **Lesson 6**: Working with Lists
-- **Lesson 7**: Learn Python: Tuples
+- **Lesson 5**: Lists
+  - Lesson Sub 5-1: Introduction to Lists
+  - Lesson Sub 5-2: Working with Lists
+  - Lesson Sub 5-3: Learn Python: Tuples
+  - Lesson Sub 5-4: Combining Lists: The Zip Function
 - ...
 
 ### Projects
