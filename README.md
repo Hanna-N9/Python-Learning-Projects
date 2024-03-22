@@ -34,7 +34,7 @@ To get a local copy up and running, follow these simple steps:
   - **Sub-Lesson 5-2**: Working with Lists
   - **Sub-Lesson 5-3**: Learn Python: Tuples
   - **Sub-Lesson 5-4**: Combining Lists: The Zip Function
-- **Lesson 6**: ...
+- **Lesson 6**: Loops
 - ...
 
 ### Projects
