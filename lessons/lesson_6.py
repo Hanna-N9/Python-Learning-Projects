@@ -2,7 +2,8 @@
 # "Definite iteration, where the number of times the loop will be executed is defined in advance (usually based on the collection size)."
 
 # For Loops: Introduction
-  # one type of loop, a for loop, a type of definite iteration
+  # One of the loop types. It is an definite iteration.
+
 
 # General Structure of a for loop
   # for <temporary variable> in <collection>:
@@ -33,5 +34,6 @@ for temp in range(5):
                                       #_______________________________________________________________
 
 # While Loops: Introduction
+  # One of the loop types. It is a indefinite iteration.
 
   
