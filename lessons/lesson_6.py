@@ -34,11 +34,36 @@ for temp in range(5):
                                       #_______________________________________________________________
 
 # While Loops: Introduction
-  # Another type of loop. It is a form of indefinite iteration. A while loop executes instructions if a given condition is true (runs on every iteration until condition becomes false)
+  # Another type of loop. It is a form of indefinite iteration. A while loop executes instructions if a given condition is true (runs on every iteration until condition becomes false which stops the loop)
 
 # Structure
    # while <conditional statement>:
       # <action>  
       
+# While Loop Walkthrough     
+count = 0 # initially defined with the value of 0
+print("Starting While Loop")
+while count <= 3:
+  # Loop Body
+  print("Loop Iteration - count <= 3 is still true")  # Print if the condition is still true
+  print("Count is currently " + str(count)) # Print the current value of count 
+  count += 1 # Increment count by 1
+  print(" ----- ")
+print("While Loop ended")
+
+
+# counts down from 10 to 0(inclusive)
+countdown = 10
+while countdown >= 0:
+  print(countdown)
+  countdown -= 1 # decrease the value of the countdown variable by 1
+print("We have liftoff!") # After the while loop
+
+                                      #_______________________________________________________________
+
+
+
+
+
 
 
