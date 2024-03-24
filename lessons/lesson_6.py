@@ -59,9 +59,19 @@ while countdown >= 0:
   countdown -= 1 # decrease the value of the countdown variable by 1
 print("We have liftoff!") # After the while loop
 
+
                                       #_______________________________________________________________
 
+# While Loops: Lists
+  # Iterate through a list --- Use the length (len) of the list as the basis for how long the while loop needs to run
+  
+python_topics = ["variables", "control flow", "loops", "modules", "classes"]
 
+length = len(python_topics)
+index = 0
+while index < length:
+  print(f"I am learning about {python_topics[index]}") # Like python_topics[0] to access it
+  index += 1 
 
 
 
