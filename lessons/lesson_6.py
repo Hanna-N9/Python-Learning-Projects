@@ -2,7 +2,7 @@
 # "Definite iteration, where the number of times the loop will be executed is defined in advance (usually based on the collection size)."
 
 # For Loops: Introduction
-  # One of the loop types. It is an definite iteration.
+  # One of the loop types. It is a form of an definite iteration.
 
 
 # General Structure of a for loop
@@ -34,6 +34,11 @@ for temp in range(5):
                                       #_______________________________________________________________
 
 # While Loops: Introduction
-  # One of the loop types. It is a indefinite iteration.
+  # Another type of loop. It is a form of indefinite iteration. A while loop executes instructions if a given condition is true (runs on every iteration until condition becomes false)
 
-  
+# Structure
+   # while <conditional statement>:
+      # <action>  
+      
+
+
