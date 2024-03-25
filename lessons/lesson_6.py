@@ -78,6 +78,15 @@ while index < length:
 
 # Infinite Loops
 
+students_period_A = ["Alex", "Briana", "Cheri", "Daniele"]
+students_period_B = ["Dora", "Minerva", "Alexa", "Obie"]
+
+# Combine all students from students_period_A into students_period_B
+for student in students_period_A:
+  # students_period_A.append(student) --- Cause infinite loop due to appending elements from students_period_A to itself, leading to increases in the size of students_period_A with each iteration, causing the loop never to reach its end condition
+  print(student)
+  students_period_B.append(student)
+  print(student)
 
 
 
