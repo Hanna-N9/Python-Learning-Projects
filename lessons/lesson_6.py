@@ -91,7 +91,33 @@ for student in students_period_A:
 
                                       #_______________________________________________________________
 
-# Loop Control: Break
+# Loop Control: Break --- break loop control statements
+  # The loop will keep running even when an element exists or matches from the list. So, using a break keyword stop iteration from inside the loop and ends it.
+
+dog_breeds_available_for_adoption = ["french_bulldog", "dalmatian", "shihtzu", "poodle", "collie"]
+
+dog_breed_I_want = "dalmatian"
+
+for dog_breed in dog_breeds_available_for_adoption:
+  print(dog_breed)
+  if dog_breed == dog_breed_I_want:
+    print("They have the dog I want!")
+    break
+  
+
+items_on_sale = ["blue shirt", "striped socks", "knit dress", "red headband", "dinosaur onesie"]
+
+print("Checking the sale list!")
+
+for item in items_on_sale:
+  print(item)
+  if item == "knit dress":
+    break
+print("End of search!")
+
+
+
+
 
 
 
