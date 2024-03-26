@@ -139,6 +139,26 @@ for age in ages:
     continue
   print(age)
   
+  
+                                        #_______________________________________________________________
+
+# Nested Loops --- to loop through each sub-list
+
+#  number of scoops sold for different flavors of ice cream at three different locations
+# Sum all the numbers
+sales_data = [[12, 17, 22], [2, 10, 3], [5, 12, 13]]
+
+scoops_sold = 0
+
+# Loop through each sublist
+for location in sales_data:
+  print(location)
+  # Loop elements in each sublist
+  for element in location:
+    scoops_sold += element # add the element value to scoops_sold
+print(scoops_sold)
+
+
 
 
 
