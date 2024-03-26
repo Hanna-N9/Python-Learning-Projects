@@ -116,6 +116,35 @@ for item in items_on_sale:
 print("End of search!")
 
 
+                                      #_______________________________________________________________
+
+# Loop Control: Continue
+  # Situations where we don’t want to end the loop entirely but instead skip the current iteration of the loop
+  
+# This loop iterates over a list of numbers, skipping any negative numbers. Printing out positive numbers in the list
+# When a negative number is encountered, the 'continue' statement is executed, which skips the rest of the loop's body for that iteration and proceeds to the following number. As a result, only positive numbers are printed.
+big_number_list = [1, 2, -1, 4, -5, 5, 2, -9]
+
+for i in big_number_list:
+  if i <= 0:
+    continue
+  print(i)
+  
+
+# Loop through the ages list. If an entry is less than 21, skip it and move to the next entry. Otherwise, print() the age.
+ages = [12, 38, 34, 26, 21, 19, 67, 41, 17]
+
+for age in ages:
+  if age < 21:
+    continue
+  print(age)
+  
+
+
+
+
+
+
 
 
 
