@@ -177,7 +177,7 @@ doubled = []
 
 for number in numbers:
   doubled.append(number * 2) 
-print(doubled) # [4, -2, 158, 66, -90]
+print(doubled) 
 
 # ---
 
@@ -188,6 +188,21 @@ print(scaled_grades) # [100, 98, 72, 86, 84, 99, 58, 67]
 
 
                                         #_______________________________________________________________
+
+# List Comprehensions: Conditionals
+  # An if statement without else, the conditional must go after for <element> in <collection>. If the conditional expression is with else clause, the conditional must go before for.
+
+no_if   = [num * 2 for num in numbers] # double every number in the numbers list
+if_only = [num * 2 for num in numbers if num < 0] # double negative numbers from the numbers list
+if_else = [num * 2 if num < 0 else num * 3 for num in numbers] # double every negative number but triple all positive numbers in the list
+
+# Need to be above 161 cm
+heights = [161, 164, 156, 144, 158, 170, 163, 163, 157]
+
+can_ride_coaster = [height for height in heights if height > 161]
+print(can_ride_coaster)
+
+
 
 
 
