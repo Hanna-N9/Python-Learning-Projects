@@ -159,8 +159,33 @@ for location in sales_data:
 print(scoops_sold)
 
 
+                                        #_______________________________________________________________
+
+# List Comprehensions: Introduction
+
+# General Syntax
+  # new_list = [<expression> for <element> in <collection>]
 
 
+# Each element is doubled
+numbers = [2, -1, 79, 33, -45]
+doubled = []
+
+for number in numbers:
+  doubled.append(number * 2) 
+print(doubled) # [4, -2, 158, 66, -90]
+
+# Instead, use list comprehensions to solve that in one line
+doubled = [num * 2 for num in numbers]
+print(doubled) # [4, -2, 158, 66, -90]
+
+# ---
+
+grades = [90, 88, 62, 76, 74, 89, 48, 57]
+
+# add 10 points to all the grades
+scaled_grades = [grd +10 for grd in grades]
+print(scaled_grades) # [100, 98, 72, 86, 84, 99, 58, 67]
 
 
 
