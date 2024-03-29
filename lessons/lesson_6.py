@@ -203,6 +203,32 @@ can_ride_coaster = [height for height in heights if height > 161]
 print(can_ride_coaster)
 
 
+                                    #_______________________________________________________________
+
+# Overall of with loops
+
+# Consists of the numbers 0-9 (inclusive)
+single_digits = range(0,10)
+
+# Create a list called squares. Assign it to be an empty list to begin with
+squares = []
+
+# Create a for loop that goes through single_digits and prints out each one
+# Append the squared value of each element and print it
+for digit in single_digits:
+  print(digit)
+  squares.append(digit**2)
+print(squares) # [0, 1, 4, 9, 16, 25, 36, 49, 64, 81]
+
+# Use a list comprehension for cubes
+cubes = [digit**3 for digit in single_digits]
+print(cubes) # [0, 1, 8, 27, 64, 125, 216, 343, 512, 729]
+
+
+
+
+
+
 
 
 
