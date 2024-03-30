@@ -48,6 +48,8 @@ To get a local copy up and running, follow these simple steps:
 - **Project 3**:
   - Gradebook
   - Len's Slice
+- **Project 4**:
+  - Carly's Clippers
 - ...
 
 ## Contributing
