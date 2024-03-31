@@ -8,11 +8,19 @@
     # def function_name():
 
 def directions_to_timesSq():
-  print("Walk 4 mins to 34th St Herald Square train station")
-  print("Take the Northbound N, Q, R, or W train 1 stop")
-  print("Get off the Times Square 42nd Street stop")
+  print("Walk 4 mins to 34th St Herald Square train station.")
+  print("Take the Northbound N, Q, R, or W train 1 stop.")
+  print("Get off the Times Square 42nd Street stop.")
+  print("Take lots of pictures!")
   
   
                                       #_______________________________________________________________
+
+# Calling a Function
+  # "The process of executing the code inside the body of a function is known as calling it (This is also known as “executing a function”)"
+  # "To call a function in Python, type out its name followed by parentheses ( )."
+
+# To execute directions_to_timesSq() function
+directions_to_timesSq()
 
  
