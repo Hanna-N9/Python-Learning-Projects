@@ -23,4 +23,15 @@ def directions_to_timesSq():
 # To execute directions_to_timesSq() function
 directions_to_timesSq()
 
- 
+
+                                      #_______________________________________________________________
+
+# Whitespace & Execution Flow
+
+print("Checking the weather for you!")  
+
+def weather_check():
+  print("Looks great outside! Enjoy your trip.")
+print("False Alarm, the weather changed! There is a thunderstorm approaching. Cancel your plans and stay inside.")
+
+weather_check()
