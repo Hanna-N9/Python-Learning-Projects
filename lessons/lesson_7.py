@@ -27,6 +27,7 @@ directions_to_timesSq()
                                       #_______________________________________________________________
 
 # Whitespace & Execution Flow
+  # "The amount of whitespace tells the computer what is part of a function and what is not part of that function." For this is indentation.
 
 print("Checking the weather for you!")  
 
