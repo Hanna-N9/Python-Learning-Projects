@@ -74,3 +74,8 @@ def trip_planner(first_destination = "Iceland", final_destination = "Germany", s
   print(f"First, we will stop in {first_destination}, then {second_destination}, and lastly {final_destination}")
 
 trip_planner("Brooklyn", "Queens")
+
+
+                                      #_______________________________________________________________
+
+# Built-in Functions vs User Defined Functions
