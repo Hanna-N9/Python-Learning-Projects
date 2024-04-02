@@ -60,3 +60,17 @@ def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate , trip_ti
   print(trip_total)
 
 calculate_expenses(200, 100, 100, 5)
+
+
+                                      #_______________________________________________________________
+
+# Types of Arguments
+  # Positional arguments: arguments that can be called by their position in the function definition.
+  # Keyword arguments: arguments that can be called by their name.
+  # Default arguments: arguments that are given default values.
+  
+def trip_planner(first_destination = "Iceland", final_destination = "Germany", second_destination = "India"):
+  print("Here is what your trip will look like!")
+  print(f"First, we will stop in {first_destination}, then {second_destination}, and lastly {final_destination}")
+
+trip_planner("Brooklyn", "Queens")
