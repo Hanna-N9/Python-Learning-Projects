@@ -47,3 +47,16 @@ def generate_trip_instructions(location):
   print(f"You can use the public subway system to get to {location}")
 
 generate_trip_instructions("Grand Central Station")
+
+
+                                      #_______________________________________________________________
+
+# Multiple Parameters
+
+def calculate_expenses(plane_ticket_price, car_rental_rate, hotel_rate , trip_time):
+  car_rental_total = car_rental_rate * trip_time
+  hotel_total = hotel_rate * trip_time - 10
+  trip_total = car_rental_total + hotel_total + plane_ticket_price
+  print(trip_total)
+
+calculate_expenses(200, 100, 100, 5)
