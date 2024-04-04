@@ -78,4 +78,22 @@ trip_planner("Brooklyn", "Queens")
 
                                       #_______________________________________________________________
 
-# Built-in Functions vs User Defined Functions
+# Built-in Functions vs User Defined Functions 
+  # Built-in Functions are functions that come built into Python for us to use. User Defined Functions - functions that are written by users
+
+tshirt_price = 9.75
+shorts_price = 15.50
+mug_price = 5.99
+poster_price = 2.00
+
+#  built-in function max()
+max_price = max(tshirt_price, shorts_price, mug_price, poster_price)
+print(max_price) # 15.5
+
+#  built-in function min()
+min_price = min(tshirt_price, shorts_price, mug_price, poster_price)
+print(min_price) # 2.0
+
+# built-in function round()
+rounded_price = round(tshirt_price, 1)
+print(rounded_price) # 9.8
