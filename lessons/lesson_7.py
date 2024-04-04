@@ -97,3 +97,22 @@ print(min_price) # 2.0
 # built-in function round()
 rounded_price = round(tshirt_price, 1)
 print(rounded_price) # 9.8
+
+
+                                      #_______________________________________________________________
+
+# Variable Access --- to do with scope 
+
+# Global variable
+favorite_locations = "Paris, Norway, Iceland"
+
+# This function will print a hardcoded count of how many locations we have.
+def print_count_locations():
+  print("There are 3 locations")
+    
+# This function will print the favorite locations
+def show_favorite_locations():
+  print("Your favorite locations are: " + favorite_locations)
+
+print_count_locations() # There are 3 locations
+show_favorite_locations() # Your favorite locations are: Paris, Norway, Iceland
