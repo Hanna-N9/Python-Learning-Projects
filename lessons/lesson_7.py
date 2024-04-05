@@ -116,3 +116,26 @@ def show_favorite_locations():
 
 print_count_locations() # There are 3 locations
 show_favorite_locations() # Your favorite locations are: Paris, Norway, Iceland
+
+
+                                      #_______________________________________________________________
+
+# Returns
+
+current_budget = 3500.75
+
+def print_remaining_budget(budget):
+  print("Your remaining budget is: $" + str(budget))
+
+print_remaining_budget(current_budget) # Your remaining budget is: $3500.75
+
+
+def deduct_expense(budget, expense):
+  return budget - expense
+
+shirt_expense = 9
+
+new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
+
+print_remaining_budget(new_budget_after_shirt) # Your remaining budget is: $3491.75
+
