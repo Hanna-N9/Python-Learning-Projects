@@ -139,3 +139,22 @@ new_budget_after_shirt = deduct_expense(current_budget, shirt_expense)
 
 print_remaining_budget(new_budget_after_shirt) # Your remaining budget is: $3491.75
 
+
+                                      #_______________________________________________________________
+
+# Multiple Returns
+
+def top_tourist_locations_italy():
+  first = "Rome"
+  second = "Venice"
+  third = "Florence"
+  return first, second, third
+
+# In order to use our three returned values from top_tourist_locations_italy() we need to assign them to new variables names 
+# after we call our function
+most_popular1, most_popular2, most_popular3 = top_tourist_locations_italy()
+
+print(most_popular1) # Rome
+print(most_popular2) # Venice
+print(most_popular3) # Florence
+
