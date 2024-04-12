@@ -51,6 +51,8 @@ To get a local copy up and running, follow these simple steps:
   - Len's Slice
 - **Project 4**:
   - Carly's Clippers
+- **Project 5**:
+  - Getting Ready for Physics Class
 - ...
 
 ## Contributing
