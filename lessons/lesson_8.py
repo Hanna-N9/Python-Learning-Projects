@@ -11,3 +11,8 @@ print(sensors)
 
 
                                       #_______________________________________________________________
+
+# Make a Dictionary
+
+# Create a dictionary called translations that maps the following words in English to the words in Spanish
+translations = {"mountain": "montaña", "bread": "pan", "friend": "amigo", "horse": "caballo"}
