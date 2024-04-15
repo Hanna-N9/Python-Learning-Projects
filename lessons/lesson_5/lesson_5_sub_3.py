@@ -27,7 +27,7 @@ print(gender) # male
 # If creating a one-element tuple which is a special case
   # Creating a tuple with one item requires adding a comma after the item because parentheses are used for grouping in expressions, 
   # and without the comma, Python would interpret the item as a single value rather than a tuple. So, the trailing comma is 
-  # tells Python to recognize it as a tuple.
+  # telling Python to recognize it as a tuple.
   
 # If ("bunny"), Python would interpret ("bunny") as just the string "bunny" rather than a tuple containing one element
 one_element_tuple = ("bunny",) 
