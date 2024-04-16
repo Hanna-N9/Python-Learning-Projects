@@ -107,6 +107,35 @@ zipped_drinks = zip(drinks, caffeine)
 drinks_to_caffeine = {key:value for key, value in zipped_drinks}
 
 
+                   #_______________________________________________________________
+
+# Overall of Creating Dictionaries
+
+songs = ["Like a Rolling Stone", "Satisfaction", "Imagine", "What's Going On", "Respect", "Good Vibrations"]
+playcounts = [78, 29, 44, 21, 89, 5]
+
+# Using a dict comprehension, create a dictionary called plays that goes through zip(songs, playcounts)
+plays = {key:value for key, value in zip(songs, playcounts)}
+
+print(plays)
+
+# Add a new entry to plays dictionary
+plays["Purple Haze"] = 1
+
+# Update the value for "Respect" to be 94 in the plays dictionary
+plays.update({"Respect": 94})
+
+# Create a dictionary called library that has two key: value pairs:
+ # key "The Best Songs" with a value of plays, the dictionary you created
+ # key "Sunday Feelings" with a value of an empty dictionary
+library = {"The Best Songs": plays, "Sunday Feelings": {}}
+
+print(library)
+
+
+
+
+
 
 
 
