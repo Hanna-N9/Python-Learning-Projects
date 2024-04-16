@@ -32,3 +32,11 @@ translations = {"mountain": "montaña", "bread": "pan", "friend": "amigo", "hors
 # Without error
 children = {'von Trapp': ['Johannes', 'Rosmarie', 'Eleonore'], 'Corleone': ['Sonny', 'Fredo', 'Michael']}
 
+
+                                      #_______________________________________________________________
+
+# Empty Dictionary
+  # Create an empty dictionary when we plan to fill it later based on some other input.
+  
+my_empty_dictionary = {}
+
