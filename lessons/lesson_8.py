@@ -40,3 +40,26 @@ children = {'von Trapp': ['Johannes', 'Rosmarie', 'Eleonore'], 'Corleone': ['Son
   
 my_empty_dictionary = {}
 
+
+                                      #_______________________________________________________________
+
+# Add A Key
+  # To add a single key: value pair to a dictionary, we can use the syntax: dictionary[key] = value
+
+# Create an empty dictionary
+animals_in_zoo = {}
+
+# Add "zebras" to animals_in_zoo as a key with a value of 8.
+animals_in_zoo["zebras"] = 8
+
+print(animals_in_zoo)  # {'zebras': 8}
+
+# Add "monkeys" to animals_in_zoo as a key with a value of 12
+animals_in_zoo["monkeys"] = 12
+
+# Add "dinosaurs" to animals_in_zoo as a key with a value of 0.
+animals_in_zoo["dinosaurs"] = 0
+
+print(animals_in_zoo) # {'zebras': 8, 'monkeys': 12, 'dinosaurs': 0}
+  
+
