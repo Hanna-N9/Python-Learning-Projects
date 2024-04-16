@@ -76,3 +76,15 @@ user_ids.update({"theLooper": 138475, "stringQueen": 85739})
 print(user_ids) # {'teraCoder': 9018293, 'proProgrammer': 119238, 'theLooper': 138475, 'stringQueen': 85739}
 
 
+                                      #_______________________________________________________________
+
+# Overwrite Values
+  # Our value assignment can overwrite the existing value attached to its key.
+
+oscar_winners = {"Best Picture": "La La Land", "Best Actor": "Casey Affleck", "Best Actress": "Emma Stone", "Animated Feature": "Zootopia"}
+
+oscar_winners["Supporting Actress"] = "Viola Davis"
+
+oscar_winners["Best Picture"] = "Moonlight" 
+
+
