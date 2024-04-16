@@ -63,3 +63,16 @@ animals_in_zoo["dinosaurs"] = 0
 print(animals_in_zoo) # {'zebras': 8, 'monkeys': 12, 'dinosaurs': 0}
   
 
+                                      #_______________________________________________________________
+
+# Add Multiple Keys
+  # If we wanted to add multiple key : value pairs to a dictionary at once, we can use the .update() method.
+
+user_ids = {"teraCoder": 9018293, "proProgrammer": 119238}
+
+# Add two users
+user_ids.update({"theLooper": 138475, "stringQueen": 85739})
+
+print(user_ids) # {'teraCoder': 9018293, 'proProgrammer': 119238, 'theLooper': 138475, 'stringQueen': 85739}
+
+
