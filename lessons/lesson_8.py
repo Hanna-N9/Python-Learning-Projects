@@ -88,3 +88,25 @@ oscar_winners["Supporting Actress"] = "Viola Davis"
 oscar_winners["Best Picture"] = "Moonlight" 
 
 
+                                      #_______________________________________________________________
+
+# Dict Comprehensions
+  # Supposedly we have two lists that we want to combine into a dictionary.
+  # Python allows you to create a dictionary using a dict comprehension, with this syntax:
+    # <variable-name> = {key:value for key, value in zip(<key>, <value>)}
+  # zip() combines two lists into an iterator of tuples with the list elements paired together.
+
+drinks = ["espresso", "chai", "decaf", "drip"]
+caffeine = [64, 40, 0, 120]
+
+# Create a variable called zipped_drinks that is an iterator of pairs between the drinks list and the caffeine list.
+zipped_drinks = zip(drinks, caffeine)
+
+# Create a dictionary called drinks_to_caffeine by using a dict comprehension that goes through the zipped_drinks iterator and 
+# turns each tuple pair into a key:value item.
+drinks_to_caffeine = {key:value for key, value in zipped_drinks}
+
+
+
+
+
