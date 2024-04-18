@@ -38,6 +38,7 @@ To get a local copy up and running, follow these simple steps:
 - **Lesson 7**: Functions
 - **Lesson 8**
   - **Sub-Lesson 8-1**: Creating Dictionaries
+  - **Sub-Lesson 8-2**: Using Dictionaries
 - ...
 
 ### Projects
