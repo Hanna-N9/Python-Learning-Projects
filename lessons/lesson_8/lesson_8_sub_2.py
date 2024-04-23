@@ -73,6 +73,7 @@ print(list(test_scores))
 for student in test_scores.keys():
  print(student)
   
+  
 user_ids = {"teraCoder": 100019, "pythonGuy": 182921, "samTheJavaMaam": 123112, "lyleLoop": 102931, "keysmithKeith": 129384}
 num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
 
@@ -86,6 +87,19 @@ print(users)
 print(lessons)
 
 
+                                        #_______________________________________________________________
 
+# Get All Values
+  # A .values() method to return a dict_values object with all of the values in the dictionary.
+
+num_exercises = {"functions": 10, "syntax": 13, "control flow": 15, "loops": 22, "lists": 19, "classes": 18, "dictionaries": 18}
+
+total_exercises = 0
+
+# Iterate through the values in the num_exercises dictionary and add each value to the total_exercises variable
+for exercises in num_exercises.values():
+  total_exercises += exercises
+
+print(total_exercises)
 
 
