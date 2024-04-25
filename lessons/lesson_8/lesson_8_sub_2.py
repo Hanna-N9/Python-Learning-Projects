@@ -115,6 +115,10 @@ for occupation, percentage in pct_women_in_occupation.items():
   print(f"Women make up {percentage} percent of {occupation}s.")
 
 
+                                        #_______________________________________________________________
+
+# Overall of Using Dictionaries
+
 
 
 
