@@ -58,7 +58,6 @@ To get a local copy up and running, follow these simple steps:
   - Getting Ready for Physics Class
 - **Project 6**:
   - Scrabble
-- ...
 
 ## Contributing
 
