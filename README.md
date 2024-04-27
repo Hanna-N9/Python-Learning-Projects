@@ -56,6 +56,8 @@ To get a local copy up and running, follow these simple steps:
   - Carly's Clippers
 - **Project 5**:
   - Getting Ready for Physics Class
+- **Project 6**:
+  - Scrabble
 - ...
 
 ## Contributing
