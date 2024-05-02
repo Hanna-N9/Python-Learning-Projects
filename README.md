@@ -39,7 +39,6 @@ To get started, follow these steps:
 - **Lesson 8**
   - **Sub-Lesson 8-1**: Creating Dictionaries
   - **Sub-Lesson 8-2**: Using Dictionaries
-- ...
 
 ### Projects
 
