@@ -15,7 +15,7 @@ The repository is organized into two main folders:
 
 ## Getting Started
 
-To get a local copy up and running, follow these simple steps:
+To get started, follow these steps:
 
 1. Clone the repository
 2. Navigate to the cloned directory
