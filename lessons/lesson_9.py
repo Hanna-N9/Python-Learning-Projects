@@ -46,3 +46,21 @@ cool_instance = CoolClass()
 
 # Make a Facade instance and save it to the variable facade_1
 facade_1 = Facade()
+
+
+                                    #_______________________________________________________________
+
+# Object-Oriented Programming
+  # A class instance is also called an object. The pattern of defining classes and creating objects to represent the responsibilities
+  # of a program is known as Object Oriented Programming or OOP.
+  
+# Instantiation takes a class and turns it into an object, the type() function does the opposite of that. When called with an object, 
+# it returns the class that the object is an instance of.
+print(type(cool_instance)) # "<class '__main__.CoolClass'>"
+
+# When printing out the type() of cool_instance, it shows that this object is of type __main__.CoolClass. In Python __main__ means the 
+# current script/file itself is being executed/running. One could read the output from type() to mean, the CoolClass is the class that is defined
+# defined within current script file.
+
+facade_1_type = type(facade_1)
+print(facade_1_type) # <class '__main__.Facade'>
