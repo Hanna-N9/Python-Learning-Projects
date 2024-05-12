@@ -59,8 +59,8 @@ facade_1 = Facade()
 print(type(cool_instance)) # "<class '__main__.CoolClass'>"
 
 # When printing out the type() of cool_instance, it shows that this object is of type __main__.CoolClass. In Python __main__ means the 
-# current script/file itself is being executed/running. One could read the output from type() to mean, the CoolClass is the class that is defined
-# defined within current script file.
+# current script/file itself is being executed/running. One could read the output from type() to mean, the CoolClass is the class that is 
+# defined within the current script file.
 
 facade_1_type = type(facade_1)
 print(facade_1_type) # <class '__main__.Facade'>
