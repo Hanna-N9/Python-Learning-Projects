@@ -84,3 +84,15 @@ print(drummer.title) # prints "Rockstar"
 # Create a Grade class with a class attribute .minimum_passing equal to 65.
 class Grade:
   minimum_passing = 65
+  
+  
+                                    #_______________________________________________________________
+
+# Methods
+  # Methods are functions that are defined as part of a class. The first argument in a method is always the object that is calling the 
+  # method. Convention recommends that we name this first argument self. Methods always have at least this one argument.
+
+class Rules:
+  def washing_brushes(self):
+    return "Point bristles towards the basin while washing your brushes."
+
