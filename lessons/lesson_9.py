@@ -119,6 +119,27 @@ class Rules:
     return "Point bristles towards the basin while washing your brushes."
 
 
+                                    #_______________________________________________________________
+
+# Methods with Arguments
+  # Methods can also take more arguments than just self.
+
+# Calculates the area of a circle
+class Circle:
+  pi = 3.14
+  
+  def area(self, radius):
+    return self.pi * radius ** 2
+  
+circle = Circle() # Create an instance of Circle
+
+# Measure several circles 
+pizza_area = circle.area(12 / 2)
+teaching_table_area = circle.area(36 / 2)
+round_room_area = circle.area(11460 / 2)
+
+
+
 
 
 
