@@ -159,6 +159,13 @@ teaching_table = Circle(36) # New circle with diameter: 36
 
 
 class Shouter:
+  def __init__(self):
+    print("HELLO?!")
+
+shout1 = Shouter() # "HELLO?!"
+
+
+class Shouter:
   def __init__(self, phrase):
     # make sure phrase is a string
     if type(phrase) == str:
