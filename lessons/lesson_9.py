@@ -139,7 +139,32 @@ teaching_table_area = circle.area(36 / 2)
 round_room_area = circle.area(11460 / 2)
 
 
+                                    #_______________________________________________________________
 
+# Constructors -- Common ones with __init__
+  # dunder methods is two underscores (double-underscore abbreviated to “dunder”) on either side of methods.
+    # First dunder method we’re going to use is the __init__() method (two underscores before and after the word “init”). This method is
+    # used to initialize a newly created object. It is called every time the class is instantiated.
+    # Methods that are used to prepare an object being instantiated are called constructors. Constructor is usually referring to the 
+    # __init__() method.
+
+class Circle:
+  pi = 3.14
+  
+  # Add constructor here:
+  def __init__(self, diameter):
+    print(f"New circle with diameter: {diameter}")
+  
+teaching_table = Circle(36) # New circle with diameter: 36
+
+
+class Shouter:
+  def __init__(self, phrase):
+    # make sure phrase is a string
+    if type(phrase) == str:
+      print(phrase.upper())
+
+shout1 = Shouter("shout") # SHOUT
 
 
 
