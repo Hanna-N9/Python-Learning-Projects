@@ -174,6 +174,47 @@ class Shouter:
 shout1 = Shouter("shout") # SHOUT
 
 
+                                    #_______________________________________________________________
+
+# Instance Variables
+  # A class is a schematic for a data type and an object is an instance of a class. Each instance of a class can hold different kinds of
+  # data. The data held by an object is referred to as an instance variable. Instance variables aren’t shared by all instances of a class —
+  # they are variables that are specific to the object they are attached to.
+  
+class Store:
+  pass
+
+# Create two objects from this Store class
+alternative_rocks = Store()
+isabelles_ices = Store()
+
+# Assigning the store_name attribute to each instance 
+alternative_rocks.store_name = "Alternative Rocks"
+isabelles_ices.store_name = "Isabelle's Ices"
+
+print(alternative_rocks.store_name)  # Output: Alternative Rocks
+print(isabelles_ices.store_name)  # Output: Isabelle's Ices
+
+# Above is not a bad practice, but it is better to use __init__ method for better readability .
+
+
+class Dog:
+    def __init__(self, name, age):
+        self.name = name  # Instance variable
+        self.age = age   # Instance variable
+
+# Creating instances of the dog class
+dog_1 = Dog("Buddy", 2)
+dog_2 = Dog("Luna", 7)
+
+# Accessing instance variables
+print(dog_1.name)  # Output: Buddy
+print(dog_1.age)   # Output: 2
+print(dog_2.name)  # Output: Luna
+print(dog_2.age)   # Output: 7
+
+
+
 
 
 
