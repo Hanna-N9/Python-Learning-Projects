@@ -199,7 +199,7 @@ print(isabelles_ices.store_name)  # Output: Isabelle's Ices
 
 
 class Dog:
-    def __init__(self, name, age):
+    def __init__(self, name, age): # constructor
         self.name = name  # Instance variable
         self.age = age   # Instance variable
 
@@ -264,6 +264,7 @@ for element in can_we_count_it:
     print(str(type(element)) + " has the count attribute!")
   else:
     print(str(type(element)) + " does not have the count attribute :(")
+
 
 
 
