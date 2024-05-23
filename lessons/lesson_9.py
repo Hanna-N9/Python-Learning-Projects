@@ -266,8 +266,33 @@ for element in can_we_count_it:
     print(str(type(element)) + " does not have the count attribute :(")
 
 
+                                    #_______________________________________________________________
 
+# Self
 
+# In Circle‘s constructor, set the instance variable self.radius to equal half the diameter that gets passed in.
+
+class Circle:
+  pi = 3.14
+  def __init__(self, diameter):
+    print("Creating circle with diameter {d}".format(d=diameter))
+    
+    self.radius = diameter / 2
+  
+  # Returns the circumference of a circle with the given radius by this formula: circumference = 2 * pi * radius
+  # Use self to refer to class and instance variables
+  def circumference(self):
+    return 2 * self.pi * self.radius
+
+# Define three Circles (instances of Circles) with three different diameters.
+medium_pizza = Circle(12) # Creating circle with diameter 12
+teaching_table = Circle(36) # Creating circle with diameter 36
+round_room = Circle(11460) # Creating circle with diameter 11460
+
+# Print out the circumferences of medium_pizza, teaching_table, and round_room
+print(medium_pizza.circumference()) # 37.68
+print(teaching_table.circumference()) # 113.04
+print(round_room.circumference()) # 35984.4
 
 
 
