@@ -295,6 +295,25 @@ print(teaching_table.circumference()) # 113.04
 print(round_room.circumference()) # 35984.4
 
 
+                                    #_______________________________________________________________
+
+# Everything is an Object
+  # Attributes can be added to user-defined objects after instantiation, so it’s possible for an object to have some attributes that are
+  # not explicitly defined in an object’s constructor. We can use the dir() function to investigate an object’s attributes at runtime. 
+  # dir() is short for directory and offers an organized presentation of object attributes.
+  
+# Call dir() on the number 5
+print(dir(5))
+
+# Define a function called this_function_is_an_object. It can take any parameters and return anything you’d like. Call dir() 
+def this_function_is_an_object(a, b):
+  return a + b
+
+print(dir(this_function_is_an_object))
+
+
+
+
 
 
 
