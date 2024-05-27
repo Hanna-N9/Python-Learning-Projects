@@ -301,6 +301,10 @@ print(round_room.circumference()) # 35984.4
   # Attributes can be added to user-defined objects after instantiation, so it’s possible for an object to have some attributes that are
   # not explicitly defined in an object’s constructor. We can use the dir() function to investigate an object’s attributes at runtime. 
   # dir() is short for directory and offers an organized presentation of object attributes.
+  # Python automatically adds a number of attributes to all objects that get created. These internal attributes are usually indicated by 
+  # double-underscores. Even Functions are objects.
+  # We use dir() to explore its attributes, and it gives us a large number of internal Python dunder attributes
+
   
 # Call dir() on the number 5
 print(dir(5))
