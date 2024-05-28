@@ -316,6 +316,52 @@ def this_function_is_an_object(a, b):
 print(dir(this_function_is_an_object))
 
 
+                                    #_______________________________________________________________
+
+# String Representation
+  # Another dunder method called __repr__() is a method we can use to tell Python what we want the string representation of the class
+  # to be. __repr__() can only have one parameter, self, and must return a string.
+  
+# We implemented the __repr__() method and had it return the .name attribute of the object. When we printed the object out it simply 
+# printed the .name of the object! 
+
+class Employee():
+  def __init__(self, name):
+    self.name = name
+
+  def __repr__(self):
+    return self.name
+
+argus = Employee("Argus Filch")
+print(argus) # Argus Filch
+
+# Add a __repr__() method to the Circle class that returns Circle with radius {radius}
+
+class Circle:
+  pi = 3.14
+  
+  def __init__(self, diameter):
+    self.radius = diameter / 2
+  
+  def area(self):
+    return self.pi * self.radius ** 2
+  
+  def circumference(self):
+    return self.pi * 2 * self.radius
+  
+  def __repr__(self):
+    return "Circle with radius {radius}".format(radius=self.radius)
+  
+medium_pizza = Circle(12)
+teaching_table = Circle(36)
+round_room = Circle(11460)
+
+print(medium_pizza) # Circle with radius 6.0
+print(teaching_table) # Circle with radius 18.0
+print(round_room) # Circle with radius 5730.0
+
+
+
 
 
 
