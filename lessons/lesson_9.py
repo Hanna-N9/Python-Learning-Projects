@@ -365,7 +365,37 @@ print(round_room) # Circle with radius 5730.0
 
 # Overall of Classes
 
+# 1. Define a class named Student. Add a constructor for Student. Have the constructor take in two parameters: a name and a year. 
+ # Save those two as attributes .name and .year.
+# 5.  In the body of the constructor for Student, declare self.grades as an empty list.
+# 6.  Add an .add_grade() method to Student that takes a parameter, grade. .add_grade() should verify that grade is of type Grade and if so,
+ # add it to the Student‘s .grades. If grade isn’t an instance of Grade then .add_grade() should do nothing.
+ 
+class Student:
+  def __init__(self, name, year):
+    self.name = name
+    self.year = year
+    self.grades = []
+  
+  def add_grade(self, grade):
+    if isinstance(grade, Grade): 
+      self.grades.append(grade) 
 
+# 3. Create a Grade class, with .minimum_passing as an attribute set to 65. 
+# 4. Give Grade a constructor. Take in a parameter score and assign it to self.score.
+class Grade:
+  minimum_passing = 65
+
+  def __init__(self, score):
+    self.score = score
+
+# 2. Create three instances of the Student class
+roger = Student("Roger van der Weyden", 10)
+sandro = Student("Sandro Botticelli", 12)
+pieter = Student("Pieter Bruegel the Elder", 8)
+
+# 7. Create a new Grade with a score of 100 and add it to pieter‘s .grades attribute using .add_grade().
+pieter.add_grade(Grade(100))
 
 
 
