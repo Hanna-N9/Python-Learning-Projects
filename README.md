@@ -57,8 +57,6 @@ To get started, follow these steps:
 - **Project 5**:
   - Getting Ready for Physics Class
 - **Project 6**:
-  - Scrabble
-- **Project 7**:
   - Basta Fazoolin'
 
 ## Contributing
